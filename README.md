@@ -12,7 +12,9 @@ Download the batch export NX journal by going to the source code [here](https://
 
 You may receive a warning that this filetype could be dangerous, as Visual Basic code files (what this journal is written in) can be used for malicious pruposes. Since this file is coming from a trusted source (a colleague at Fermilab) this is not an issue, however if you have any concerns you should reach out to the Fermilab IT team for clarification or contact the author at ncurfman@fnal.gov.
 
-Move the file from Downloads to somewhere you'll be able to find it later, like your Documents folder. Open NX through Teamcenter. From here, follow either the "Generate PDFS for a list of files" instructions, or the "Generate all drawings associated with an assembly" instructions.
+Move the file from Downloads to somewhere you'll be able to find it later, like your Documents folder. 
+
+Next, open NX through Teamcenter. From here, follow either the "Generate PDFS for a list of files" instructions, or the "Generate all drawings associated with an assembly" instructions.
 
 # Generate PDFs for a list of files
 * First, make sure you've closed all open parts in NX to prevent PDFs of loaded but not displayed parts from being generated unintentionally by going to File -> Close -> All Parts.
