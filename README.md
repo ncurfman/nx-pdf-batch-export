@@ -27,7 +27,7 @@ Next, open NX through Teamcenter. From here, follow either the "Generate PDFS fo
 
 * Go to NX and open the Teamcenter Navigator --> Open the Clipboard and select Refresh. The Items that were selected are now open in the Teamcenter navigator.
 
-* From the clipboard menu, select the top item, then while holding the Shift  key, select the bottom item.
+* From the clipboard menu, select the top item, then while holding the Shift  key, select the bottom item to select all the items in the clipboard.
 
 * Right click and select "Open". All models will open in NX.
 
