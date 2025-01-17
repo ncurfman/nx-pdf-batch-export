@@ -29,7 +29,7 @@ Next, open NX through Teamcenter. From here, follow either the "Generate PDFS fo
 
 * From the clipboard menu, select the top item, then while holding the Shift  key, select the bottom item to select all the items in the clipboard.
 
-* Right click and select "Open". All models will open in NX.
+* Right click on the highlighted files and select "Open". All models will open in NX.
 
 * Go to the "Tools" tab and click the "Play" button in the "Journal" section.
 
