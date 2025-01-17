@@ -15,33 +15,48 @@ You may receive a warning that this filetype could be dangerous, as Visual Basic
 Move the file from Downloads to somewhere you'll be able to find it later, like your Documents folder. Open NX through Teamcenter. From here, follow either the "Generate PDFS for a list of files" instructions, or the "Generate all drawings associated with an assembly" instructions.
 
 #Generate PDFs for a list of files
-First, make sure you've closed all open parts in NX to prevent PDFs of loaded but not displayed parts from being generated unintentionally by going to File -> Close -> All Parts.
+* First, make sure you've closed all open parts in NX to prevent PDFs of loaded but not displayed parts from being generated unintentionally by going to File -> Close -> All Parts.
 
-Next, set your assembly load options as shown below. Make sure "Load" is set to "Structure Only" and "Load Interpart Data" is UNchecked. as shown below:
+* Next, set your assembly load options as shown below. Make sure "Load" is set to "Structure Only" and "Load Interpart Data" is UNchecked. as shown below:
 
 ![Export only files intentionally opened](https://github.com/user-attachments/assets/e1be0678-04e7-4cf8-8fc9-e669884e5007)
 
-Now, in Teamcenter, highlight any parts you would like a PDF of, right click, and select copy.
+* Now, in Teamcenter, highlight any parts you would like a PDF of, right click, and select copy.
 
-Go to NX and open the Teamcenter Navigator --> Open the Clipboard and select Refresh. The Items that were selected are now open in the Teamcenter navigator.
+* Go to NX and open the Teamcenter Navigator --> Open the Clipboard and select Refresh. The Items that were selected are now open in the Teamcenter navigator.
 
-From the clipboard menu, select the top item, then while holding the Shift  key, select the bottom item.
+* From the clipboard menu, select the top item, then while holding the Shift  key, select the bottom item.
 
-Right click and select "Open". All models will open in NX.
+* Right click and select "Open". All models will open in NX.
 
-Go to the "Tools" tab and click the "Play" button in the "Journal" section.
+* Go to the "Tools" tab and click the "Play" button in the "Journal" section.
 
-Click browse, and navigate to the script you downloaded previously.
+* Click browse, and navigate to the script you downloaded previously.
 
-With the script shown under "File Name" click the "Run" button. You will prompted to select an output folder and add a watermark if desired.
+* With the script shown under "File Name" click the "Run" button. You will prompted to select an output folder and add a watermark if desired.
 
-After the watermark prompt the script will begin opening drawings and creating PDFs. Please be patient and do not use your computer while PDF generation is running.
+* After the watermark prompt the script will begin opening drawings and creating PDFs. Please be patient and do not use your computer while PDF generation is running.
 
-All files should now have PDFs in the output folder you selected.
+* All files should now have PDFs in the output folder you selected.
 
 #Generate all drawings assocatied with an assembly:
 
-!!!CAUTION!!!
+Be Careful! This procedure generates a file for every part that's loaded in NX including ALL assembly child components! That can be a lot of PDFs!
 
+* First, make sure you've closed all open parts in NX to prevent PDFs of loaded but not displayed parts from being generated unintentionally by going to File -> Close -> All Parts.
 
+* Next, set your assembly load options as shown below. Make sure "Load" is set to "All Components" and "Load Interpart Data" is checked. as shown below:
 
+![Export all loaded parts](https://github.com/user-attachments/assets/49700d9c-a0e4-4d33-a8c9-92e49f12222e)
+
+* Open the assembly you would like to generate PDFs from in NX.
+
+* Go to the "Tools" tab and click the "Play" button in the "Journal" section.
+
+* Click browse, and navigate to the script you downloaded previously.
+
+* With the script shown under "File Name" click the "Run" button. You will prompted to select an output folder and add a watermark if desired.
+
+* After the watermark prompt the script will begin opening drawings and creating PDFs. Please be patient and do not use your computer while PDF generation is running.
+
+* All files should now have PDFs in the output folder you selected.
