@@ -14,7 +14,7 @@ You may receive a warning that this filetype could be dangerous, as Visual Basic
 
 Move the file from Downloads to somewhere you'll be able to find it later, like your Documents folder. Open NX through Teamcenter. From here, follow either the "Generate PDFS for a list of files" instructions, or the "Generate all drawings associated with an assembly" instructions.
 
-#Generate PDFs for a list of files
+# Generate PDFs for a list of files
 * First, make sure you've closed all open parts in NX to prevent PDFs of loaded but not displayed parts from being generated unintentionally by going to File -> Close -> All Parts.
 
 * Next, set your assembly load options as shown below. Make sure "Load" is set to "Structure Only" and "Load Interpart Data" is UNchecked. as shown below:
@@ -39,7 +39,7 @@ Move the file from Downloads to somewhere you'll be able to find it later, like 
 
 * All files should now have PDFs in the output folder you selected.
 
-#Generate all drawings assocatied with an assembly:
+# Generate all drawings assocatied with an assembly:
 
 Be Careful! This procedure generates a file for every part that's loaded in NX including ALL assembly child components! That can be a lot of PDFs!
 
