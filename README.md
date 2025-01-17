@@ -5,7 +5,7 @@ Easily export PDF files for all loaded NX files
 This NX Journal file will look at all files loaded in NX and exports any associated drawing files to PDFs. This tool can be used to export a very specific list of drawing files, or every single PDF associated with a top level assembly model. Before exporting, you'll have the option to select an output folder and set watermark text.
 
 # How it works:
-The script looks for any part or assembly files that are openankd opens all the related drawing files. After that, the script will step through every open drawing file and export it to a PDF. The script supports multiple drawing datasets per model or assembly, but will only look for drawing datasets with "DWG" in the name. If you are using NX and Teamcenter in the normal fashion, this limitation won't affect you, but be careful if you have any drawing datasets with custom names.
+The script looks for any part or assembly files that are loaded and opens all the related drawing files. After that, the script will step through every open drawing file and export it to a PDF. The script supports multiple drawing datasets per model or assembly, but will only look for drawing datasets with "DWG" in the name. If you are using NX and Teamcenter in the normal fashion, this limitation won't affect you, but be careful if you have any drawing datasets with custom names.
 
 # How to use it:
 Download the batch export NX journal by going to the source code [here](https://github.com/ncurfman/nx-pdf-batch-export/blob/main/NX_Export_PDF_All_Open_Parts_multiple_drawings.vb)  and then clicking the "Download raw file" button on the top right.
