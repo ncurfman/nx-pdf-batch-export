@@ -924,7 +924,9 @@ Class NXJ_PdfExporter
                 lg.WriteLine("  TC is running")
                 'exporting from TC to filesystem, no part folder to default to
                 'default to "MyDocuments" folder
-                _outputPdfFile = IO.Path.Combine(My.Computer.FileSystem.SpecialDirectories.MyDocuments, _exportFile & ".pdf")
+                'Commented this line out and added next line to allow select folder to work in TC - Noah Curfman
+				'_outputPdfFile = IO.Path.Combine(My.Computer.FileSystem.SpecialDirectories.MyDocuments, _exportFile & ".pdf")
+				_outputPdfFile = IO.Path.Combine(_outputFolder, _exportFile & ".pdf")
             Else
                 lg.WriteLine("  native NX")
                 'exporting from native to file system
