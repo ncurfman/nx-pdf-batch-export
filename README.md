@@ -1,6 +1,3 @@
-# nx-pdf-batch-export
-Easily export PDF files for all loaded NX files
-
 # What this script does:
 This NX Journal file will look at all files loaded in NX and export any associated drawing files to PDFs. This tool can be used to export a very specific list of drawing files, or every single PDF associated with a top level assembly model. Before exporting, you'll have the option to select an output folder and set watermark text.
 
