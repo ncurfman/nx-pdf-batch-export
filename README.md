@@ -17,7 +17,7 @@ Move the file from Downloads to somewhere you'll be able to find it later, like 
 Next, open NX through Teamcenter. From here, follow either the "Generate PDFS for a list of files" instructions, or the "Generate all drawings associated with an assembly" instructions.
 
 # Known limitations:
-* Loading drawings with 3D centerlines using "Structure Only" as described in the "Generate PDFs for a list of files" causes the 3D centerlines to disassociate since the referenced geometry is not loaded. Production drawings with 3D centerlines will need to be opened with "Fully Load" and exported manually.
+* Loading drawings with 3D centerlines using "Structure Only" as described in the "Generate PDFs for a list of files" causes the 3D centerlines to disassociate since the referenced geometry is not loaded.
 
 # Generate PDFs for a list of files
 * First, make sure you've closed all open parts in NX to prevent PDFs of loaded but not displayed parts from being generated unintentionally by going to File -> Close -> All Parts.
