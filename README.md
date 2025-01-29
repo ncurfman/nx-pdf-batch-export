@@ -41,7 +41,7 @@ Next, open NX through Teamcenter. From here, follow either the "Generate PDFS fo
 
 * All files should now have PDFs in the output folder you selected.
 
-# Generate all drawings assocatied with an assembly:
+# Generate all drawings associated with an assembly:
 
 Be Careful! This procedure generates a file for every part that's loaded in NX including ALL assembly child components! That can be a lot of PDFs!
 
